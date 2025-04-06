@@ -5,7 +5,7 @@ import email_icon from "../assets/email.png"
 import password_icon from "../assets/password.png"
 import close_icon from "../assets/close.png"
 
-const Register = () => {
+const RegisterPanel = () => {
 
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
@@ -96,4 +96,4 @@ const Register = () => {
   )
 }
 
-export default Register;
+export default RegisterPanel;
