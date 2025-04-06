@@ -13,6 +13,7 @@ const Register = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setlastName] = useState("");
 
+    console.log("ddddddddddddddd");
 
   const gohome = ()=> {
     window.location.href = window.location.origin;
