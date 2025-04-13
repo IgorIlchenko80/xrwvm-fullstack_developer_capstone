@@ -6,10 +6,9 @@ from .models import CarMake, CarModel
 # CarModelInline class
 
 # CarModelAdmin class
-admin.site.register(CarModel)
 
 # CarMakeAdmin class with CarModelInline
-admin.site.register(CarMake)
 
 # Register models here
-
+admin.site.register(CarModel)
+admin.site.register(CarMake)
