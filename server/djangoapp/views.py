@@ -15,6 +15,7 @@ import json
 from django.views.decorators.csrf import csrf_exempt
 
 from .models import CarMake, CarModel
+from .populate import initiate
 
 # from .populate import initiate
 
